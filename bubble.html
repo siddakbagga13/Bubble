@@ -1,0 +1,38 @@
+<head>
+    <link rel="stylesheet" href="bubble.css">
+</head>
+<div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+</div>
+<div class="formgroup" id="name-form">
+    <label for="name">Your name*</label>
+    <input type="text" id="name" name="name" required />
+    <form action="/action_page.php" method="get">
+</div>
+
+<div class="formgroup" id="email-form">
+    <label for="email">Your e-mail*</label>
+    <input type="email" id="email" name="email" required />
+</div>
+<div class="formgroup" id="message-form">
+    <label for="message">Your message</label>
+    <textarea id="message" name="message"></textarea>
+</div>
+	<input type="submit" onclick="myFunction()" value="Send your message!"/>
+    <script>
+      function myFunction() {
+     alert("We will contact with you soon!");
+     document.write("Your data is collected")
+}
+    </script>
+</form>
+</div>
